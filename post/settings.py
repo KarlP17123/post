@@ -16,7 +16,7 @@ import os
 import dj_database_url
 
 if os.path.isfile("env.py"):
-import env
+    import env
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -34,7 +34,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['post.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['postappp.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -48,7 +48,7 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
-    'postapp',
+    'postappp',
 ]
 
 MIDDLEWARE = [
